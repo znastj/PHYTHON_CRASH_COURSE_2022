@@ -201,3 +201,116 @@ print(visitors)
 >Vadik, your invitation is in force, see you!
 
 >[]
+
+# EX 3-8
+```
+countries = ['Ukraine', 'Great Britain', 'Poland', 'Germany', 'Ireland']
+print(countries)
+
+print(sorted(countries))
+
+print(countries)
+
+print(sorted(countries, reverse=True))
+
+print(countries)
+
+countries.reverse()
+
+print(countries)
+
+countries.reverse()
+
+print(countries)
+
+countries.sort()
+
+print(countries)
+
+countries.sort(reverse=True)
+
+print(countries)
+```
+>['Ukraine', 'Great Britain', 'Poland', 'Germany', 'Ireland']
+
+>['Germany', 'Great Britain', 'Ireland', 'Poland', 'Ukraine']
+
+>['Ukraine', 'Great Britain', 'Poland', 'Germany', 'Ireland']
+
+>['Ukraine', 'Poland', 'Ireland', 'Great Britain', 'Germany']
+
+>['Ukraine', 'Great Britain', 'Poland', 'Germany', 'Ireland']
+
+>['Ireland', 'Germany', 'Poland', 'Great Britain', 'Ukraine']
+
+>['Ukraine', 'Great Britain', 'Poland', 'Germany', 'Ireland']
+
+>['Germany', 'Great Britain', 'Ireland', 'Poland', 'Ukraine']
+
+>['Ukraine', 'Poland', 'Ireland', 'Great Britain', 'Germany']
+
+# EX 3-9
+```
+visitors = ['Vadik', 'Sveta', 'Kristi']
+
+visitors.insert(0, 'Dima')
+
+visitors.insert(2, 'Nastia')
+
+visitors.append('Sasha')
+
+print(len(visitors))
+```
+>6
+
+# EX 3-10
+```
+animals = ['dog', 'cat', 'mouse', 'lion', 'crocodile']
+print(animals)
+
+print(animals[-1])
+
+print(animals[3])
+
+animals.insert(3, 'humster')
+
+animals.append('tiger')
+
+del animals[0]
+print(animals)
+
+animals.pop()
+print(animals)
+
+print(sorted(animals))
+
+print(sorted(animals, reverse=True))
+
+animals.reverse()
+print(animals)
+
+animals.sort()
+print(animals)
+
+animals.sort(reverse=True)
+print(animals)
+```
+>['dog', 'cat', 'mouse', 'lion', 'crocodile']
+
+>crocodile
+
+>lion
+
+>['cat', 'mouse', 'humster', 'lion', 'crocodile', 'tiger']
+
+>['cat', 'mouse', 'humster', 'lion', 'crocodile']
+
+>['cat', 'crocodile', 'humster', 'lion', 'mouse']
+
+>['mouse', 'lion', 'humster', 'crocodile', 'cat']
+
+>['crocodile', 'lion', 'humster', 'mouse', 'cat']
+
+>['cat', 'crocodile', 'humster', 'lion', 'mouse']
+
+>['mouse', 'lion', 'humster', 'crocodile', 'cat']
