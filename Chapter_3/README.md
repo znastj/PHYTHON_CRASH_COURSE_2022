@@ -259,9 +259,9 @@ visitors.insert(2, 'Nastia')
 
 visitors.append('Sasha')
 
-print(len(visitors))
+print('I invited a', len(visitors), 'friends')
 ```
->6
+>I invited a 6 friends
 
 # EX 3-10
 ```
