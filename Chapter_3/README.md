@@ -314,3 +314,15 @@ print(animals)
 >['cat', 'crocodile', 'humster', 'lion', 'mouse']
 
 >['mouse', 'lion', 'humster', 'crocodile', 'cat']
+
+# EX 3-11
+```
+motorcycles = [] 
+print(motorcycles[-1])
+```
+Traceback (most recent call last):
+
+  File "f:\PYTHON_CRASH_COURSE_2022\Chapter_3\chapter_3.py", line 2, in <module>
+    print(motorcycles[-1])
+    
+IndexError: list index out of range
